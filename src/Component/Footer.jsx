@@ -1,3 +1,4 @@
+import { Link } from "lucide";
 import React from "react";
 import {
   FaInstagram,
@@ -36,30 +37,30 @@ const Footer = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex justify-center lg:justify-start gap-5 mt-24">
+      <div className="flex justify-center lg:justify-start gap-5 mt-24">
 
-            <a
-              href="#"
-              className="w-5 h-5 border border-[#29402d] rounded-md flex items-center justify-center hover:bg-[#29402d] hover:text-white transition"
-            >
-              <FaInstagram size={12} />
-            </a>
+  <Link
+    to="#"
+    className="w-5 h-5 border border-[#29402d] rounded-md flex items-center justify-center text-[#29402d] hover:bg-[#29402d] hover:text-white transition"
+  >
+    <FaInstagram size={12} />
+  </Link>
 
-            <a
-              href="#"
-              className="text-[#29402d] hover:opacity-60 transition"
-            >
-              <FaTwitter size={19} />
-            </a>
+  <Link
+    to="#"
+    className="w-5 h-5 border border-[#29402d] rounded-md flex items-center justify-center text-[#29402d] hover:bg-[#29402d] hover:text-white transition"
+  >
+    <FaTwitter size={12} />
+  </Link>
 
-            <a
-              href="#"
-              className="w-5 h-5 border border-[#29402d] rounded-md flex items-center justify-center hover:bg-[#29402d] hover:text-white transition"
-            >
-              <FaFacebookF size={11} />
-            </a>
+  <Link
+    to="#"
+    className="w-5 h-5 border border-[#29402d] rounded-md flex items-center justify-center text-[#29402d] hover:bg-[#29402d] hover:text-white transition"
+  >
+    <FaFacebookF size={11} />
+  </Link>
 
-          </div>
+</div>
         </div>
 
 
