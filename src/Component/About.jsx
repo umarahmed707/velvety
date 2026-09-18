@@ -6,7 +6,7 @@ import img3 from '../assets/serum 3.png'
 
 const About = () => {
   return (
-    <div className="flex ml-[50px] justify-between ">
+    <div className="flex justify-between bg-[#F2F6EF] ">
 
         <div className="flex flex-col items-center   justify-center gap-15 ">
             <h2 className="text-[56px] text-[#213721] leading-[120%] mt-10">Inspired by traditional <br /> knowledge and nature</h2>

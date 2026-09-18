@@ -60,9 +60,9 @@ const StarRating = ({ count, ratingText }) => {
   );
 };
 
-export default function App() {
+export default function Productsection() {
   return (
-    <div className="w-full bg-[#EFF2EB] min-h-screen py-16  font-serif select-none">
+    <div className="w-full bg-[#F2F6EF] min-h-screen pt-16  font-serif select-none">
       
      
 

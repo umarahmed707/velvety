@@ -5,7 +5,8 @@ import arrow from '../assets/Arrow-left.png'
 
 const Service = () => {
   return (
-    <section className="flex flex-wrap justify-between gap-20 items-center px-[150px]">
+  <div>
+    <section className="flex flex-wrap bg-[#F2F6EF] py-16 justify-between gap-20 items-center px-[150px]">
     <img src={img1} alt="" />
     <div>
         <p className="text-[28px] leading-[110%]">Try Our Service</p>
@@ -21,6 +22,9 @@ const Service = () => {
 </button>
     </div>
     </section>
+          <div className="border-b-2 border-gray-200 w-full"></div>
+
+    </div>
   )
 }
 
