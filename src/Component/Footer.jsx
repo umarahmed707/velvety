@@ -1,4 +1,4 @@
-import { Link } from "lucide";
+import { Link } from "react-router-dom";
 import React from "react";
 import {
   FaInstagram,
@@ -195,15 +195,15 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex items-center gap-8 text-[14px]">
-            <Link href="#" className="hover:text-[#91a28c]">
+            <Link to="#" className="hover:text-[#91a28c]">
               Licenses
             </Link>
 
-            <Link href="#" className="hover:text-[#91a28c]">
+            <Link to="#" className="hover:text-[#91a28c]">
               Privacy
             </Link>
 
-            <Link href="#" className="hover:text-[#91a28c]">
+            <Link to="#" className="hover:text-[#91a28c]">
               Terms
             </Link>
           </div>
