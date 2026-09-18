@@ -195,17 +195,17 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex items-center gap-8 text-[14px]">
-            <a href="#" className="hover:text-[#91a28c]">
+            <Link href="#" className="hover:text-[#91a28c]">
               Licenses
-            </a>
+            </Link>
 
-            <a href="#" className="hover:text-[#91a28c]">
+            <Link href="#" className="hover:text-[#91a28c]">
               Privacy
-            </a>
+            </Link>
 
-            <a href="#" className="hover:text-[#91a28c]">
+            <Link href="#" className="hover:text-[#91a28c]">
               Terms
-            </a>
+            </Link>
           </div>
 
         </div>
